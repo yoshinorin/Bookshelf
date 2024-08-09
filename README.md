@@ -2,19 +2,19 @@
 
 [![CI](https://github.com/yoshinorin/bookshelf/actions/workflows/ci.yml/badge.svg)](https://github.com/yoshinorin/bookshelf/actions/workflows/ci.yml)
 
-# Build
+## Build
 
 ```sh
 $ dotnet publish -c Release
 ```
 
-# Hot Reload
+## Hot Reload
 
 ```sh
 $ dotnet watch
 ```
 
-# Serve
+## Serve
 
 ```sh
 $ cd bin/Release/net8.0/publish/wwwroot
@@ -23,7 +23,7 @@ $ cd bin/Release/net8.0/publish/wwwroot
 $ python -m http.server 8080
 ```
 
-# Book data structures (Draft)
+## Book data structures (Draft)
 
 create a JSON for the list of books. The structure of the JSON is as follows:
 
@@ -45,6 +45,10 @@ create a JSON for the list of books. The structure of the JSON is as follows:
   }
 ]
 ```
+
+## How to release?
+
+TODO
 
 ## Using Stacks
 
