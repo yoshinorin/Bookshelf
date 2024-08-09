@@ -4,8 +4,19 @@
 
 # Build
 
-```
+```sh
 $ dotnet publish -c Release
+```
+
+# Hot Reload
+
+```sh
+$ dotnet watch
+```
+
+# Serve
+
+```sh
 $ cd bin/Release/net8.0/publish/wwwroot
 
 // serve content
