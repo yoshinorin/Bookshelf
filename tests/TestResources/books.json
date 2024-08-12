@@ -1,0 +1,16 @@
+﻿[
+  {
+    "title": "Book Title 1",
+    "genre": "Art",
+    "readAt": 1722956400000,
+    "url": "https://example.com/4908686149",
+    "imageUrl": "https://example.com/image/4908686149"
+  },
+  {
+    "title": "Book Title 2",
+    "genre": "Music",
+    "readAt": 1722956400000,
+    "url": "https://example.com/4908686149",
+    "imageUrl": "https://example.com/image/4908686149"
+  }
+]
