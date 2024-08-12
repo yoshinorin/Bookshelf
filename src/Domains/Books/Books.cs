@@ -1,7 +1,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace bookshelf.Models
+namespace bookshelf.Domains.Books
 {
     public class Book
     {
@@ -24,14 +24,14 @@ namespace bookshelf.Models
         {
             get
             {
-                return this._readAt;
+                return _readAt;
             }
             set
             {
                 if (value != null)
                 {
                     long.TryParse(value, out long num);
-                    this._readAt = DateTimeOffset.FromUnixTimeMilliseconds(num).UtcDateTime.ToString("yyyy-MM-dd");
+                    _readAt = DateTimeOffset.FromUnixTimeMilliseconds(num).UtcDateTime.ToString("yyyy-MM-dd");
                 }
             }
         }
