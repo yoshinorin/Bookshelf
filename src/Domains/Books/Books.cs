@@ -1,7 +1,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace bookshelf.Domains.Books
+namespace Bookshelf.Domains.Books
 {
     public class Book
     {
